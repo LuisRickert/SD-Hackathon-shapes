@@ -28,8 +28,8 @@ gax-validation:Supervisor
 	sh:targetClass gx-community:Supervisor ;
 	sh:property [ sh:path gax-trust-framework:name ;
 				  sh:name "name" ;
-				  sh:description "Name of the drink"@en ;
-				  skos:example "'Beer'" ;
+				  sh:description "Name fo the Supervisor"@en ;
+				  skos:example "A name" ;
 				  sh:order 1 ;
 				  sh:minCount 1 ;
 				  sh:datatype xsd:string ] ;
@@ -56,4 +56,5 @@ gax-validation:Supervisor
 				  sh:order 4 ;
 				  sh:minCount 1 ;
 				  sh:maxCount 1 ;
-                  sh:datetype xsd:boolean ; ] ;
+                  sh:datetype xsd:boolean ; ] ; 
+.

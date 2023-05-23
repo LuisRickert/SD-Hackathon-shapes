@@ -28,8 +28,8 @@ gax-validation:Dispatcher
 	sh:targetClass gx-community:Dispatcher ;
 	sh:property [ sh:path gax-trust-framework:name ;
 				  sh:name "name" ;
-				  sh:description "Name of the drink"@en ;
-				  skos:example "'Beer'" ;
+				  sh:description "Dispatcher name"@en ;
+				  skos:example "Klaus'" ;
 				  sh:order 1 ;
 				  sh:minCount 1 ;
 				  sh:datatype xsd:string ] ;
@@ -41,4 +41,5 @@ gax-validation:Dispatcher
 				  sh:minCount 1 ;
 				  sh:maxCount 1 ;
                   sh:datetype xsd:boolean ; ] ;
+.
 	
