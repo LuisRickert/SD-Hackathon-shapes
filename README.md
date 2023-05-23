@@ -7,3 +7,8 @@
 2. add shapes
 
 ## Setup Self Descriptions
+
+- service owner did: did:web:example:ServiceProviderGmbH
+- service       did: did:web:example:ServiceProviderGmbH:vehicleService1
+- dispatcher    did: did:web:example:Dispatcher
+- supervisor    did: did:web:exmaple:ServiceProviderGmbH:vehicleSupervisor1
