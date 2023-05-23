@@ -33,11 +33,18 @@ gax-validation:Supervisor
 				  sh:order 1 ;
 				  sh:minCount 1 ;
 				  sh:datatype xsd:string ] ;
+	sh:property [ sh:path gx-community:uri ;
+				  sh:name "supervisor of" ;
+				  sh:description "did of the supervised service"@en ;
+				  skos:example "A did:web:example:service" ;
+				  sh:order 2 ;
+				  sh:minCount 1 ;
+				  sh:nodeKind xsd:uri ] ;
 	sh:property [ sh:path gx-community:can_read_data ;
 				  sh:name "can_read_data" ;
 				  sh:description "Flag if the id can read data"@en ;
 				  skos:example "true" ;
-				  sh:order 2 ;
+				  sh:order 3 ;
 				  sh:minCount 1 ;
 				  sh:maxCount 1 ;
                   sh:datetype xsd:boolean ; ] ;
@@ -45,7 +52,7 @@ gax-validation:Supervisor
 				  sh:name "can_read_data" ;
 				  sh:description "flag if assoc id can read vehicle status"@en ;
 				  skos:example "true" ;
-				  sh:order 3 ;
+				  sh:order 4 ;
 				  sh:minCount 1 ;
 				  sh:maxCount 1 ;
                   sh:datetype xsd:boolean ; ] ;
@@ -53,7 +60,7 @@ gax-validation:Supervisor
 				  sh:name "can_auth_ride" ;
 				  sh:description "Flag if assoc id can auth ride"@en ;
 				  skos:example "true" ;
-				  sh:order 4 ;
+				  sh:order 5 ;
 				  sh:minCount 1 ;
 				  sh:maxCount 1 ;
                   sh:datetype xsd:boolean ; ] ; 
