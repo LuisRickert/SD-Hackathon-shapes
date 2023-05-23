@@ -32,7 +32,7 @@ if __name__ == "__main__":
        with open(file,'r') as read_file:
           sd = json.load(read_file)
 
-       print(sd)
+       
        signable_sd = create_signable_sd(sd)       
        new_name="signable_" + file.name
        new_path = file.parent/ "signable" / new_name
