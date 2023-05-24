@@ -34,9 +34,7 @@ if __name__ == "__main__":
 
        
        signable_sd = create_signable_sd(sd)       
-       new_name="signable_" + file.name
-       new_path = file.parent/ "signable" / new_name
-       new_path.parent.mkdir(exist_ok=True)
-       new_path.touch(exist_ok=True)
-       with open(new_path,"w") as file:
+       new_name=pathlib.Path("./signable_" + file.name)
+       new_name.touch(exist_ok=True)
+       with open(new_name,"w") as file:
           json.dump(create_signable_sd(sd),file)
