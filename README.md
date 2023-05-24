@@ -47,6 +47,7 @@ The singer is one java file. The script searches in the resource folder for a se
 
 ## Result
 
+- In the postman dir you find a postman collection to interact with the federated catalog
 - In the example dir you find the generated Self Descriptions usinged aswell as unsigned.
 - as for now the federated catalogue does **not** accept these Self-Descriptions due to malformed credential subject.
   - we assume this is depening on the super class LegalPerson
