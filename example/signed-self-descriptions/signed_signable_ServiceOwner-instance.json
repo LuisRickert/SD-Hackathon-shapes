@@ -1,0 +1,58 @@
+{
+    "@id": "http://example.edu/verifiablePresentation/self-description1",
+    "proof": {
+        "created": "2023-05-23T11:45:41Z",
+        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..KvyBaHpCdR-yqeVUW1PvGkCblAvUVz1ClXDRiHIGGEJRMeJOOe0qLhP360ctlVaIZCQ2Hrb5Qr9Z6VmUC9X6zNzNkONyIP2Zt0hNXYTWHDz6Dc9Tgeb8Rsr-rI9knog9ICkhY5_1oulOkLbUxnCe88ENXnNE2F0jYUbFlUcTEYrEvneSYATVIB_SwU07eM9aE3BupbqoBxvwO4Qddkl_mSC39VT_21OQgxj7nDzcBKzSwEBH6V1lvecDxdI3DhKV_T1f5vKcWknajcxj9GQfvATBgQ3WYBJchUqauvYF6wrJpzOtKV5FqmWPWBCVbvzo5LT0axPzzfnVSAGbXGHcWPKqFBJ5X9HR3Q9UE_4C7h0lJJ847vWcyiIUPx4avHaCR1FkfoOhYzZ_98Uz_qPKJoUsjGNvShzlYK5qPJhRt0uivLmmeL124-BP88SiE7__hicMbBMpIPsXvKbjzuc67YPbK0PhM-FeOi5mlIZIWgKJxmUzwVd4ZavjnumogjgWIQABNl153pppCy4P0B9RNCZsoZgKRAFvFh8qBckRXKRwtApG-YZpvvWEC9RzBO6FvpXwGoVJ-kwZPyvNaeyOLUaLrc5ogFqcaHTnw2Qnt13A-ev9pwgy15TzMYWe7rqUcR_TtidYfJhyXOnJScDDL2X7Tdbiwhq3a5OiLPLLPtI",
+        "proofPurpose": "assertionMethod",
+        "type": "JsonWebSignature2020",
+        "verificationMethod": "did:web:compliance.lab.gaia-x.eu"
+    },
+    "type": ["VerifiablePresentation"],
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    "verifiableCredential": {
+        "issuanceDate": "2023-05-23 13:41:16.379081",
+        "credentialSubject": {
+            "@type": "gx-community:ServiceOwner",
+            "gax-trust-framework:name": {
+                "@value": "VehicleDataGmbH",
+                "@type": "xsd:string"
+            },
+            "@id": "did:web:example:ServiceProviderGmbH",
+            "@context": {
+                "cc": "http://creativecommons.org/ns#",
+                "schema": "http://schema.org/",
+                "cred": "https://www.w3.org/2018/credentials#",
+                "void": "http://rdfs.org/ns/void#",
+                "owl": "http://www.w3.org/2002/07/owl#",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "gax-validation": "http://w3id.org/gaia-x/validation#",
+                "skos": "http://www.w3.org/2004/02/skos/core#",
+                "voaf": "http://purl.org/vocommons/voaf#",
+                "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+                "vcard": "http://www.w3.org/2006/vcard/ns#",
+                "gax-core": "https://w3id.org/gaia-x/core#",
+                "dct": "http://purl.org/dc/terms/",
+                "sh": "http://www.w3.org/ns/shacl#",
+                "gax-trust-framework": "http://w3id.org/gaia-x/gax-trust-framework#",
+                "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+                "gx-community": "https://gxfs.eu/ns#",
+                "ids": "https://w3id.org/idsa/core/",
+                "dcat": "http://www.w3.org/ns/dcat#",
+                "vann": "http://purl.org/vocab/vann/",
+                "foaf": "http://xmlns.com/foaf/0.1/",
+                "did": "https://www.w3.org/TR/did-core/#"
+            }
+        },
+        "@type": ["VerifiableCredential"],
+        "@id": "https://www.example.org/SoftwareOffering.json",
+        "proof": {
+            "created": "2023-05-23T11:45:41Z",
+            "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..sgpea0tRaR57s0fASGiP22Kd5c7YXO365Y5LzD87joDeV-O-6i8mAhMhVUfS20kzVYtlv0SqXbJuhja1dX8Udg-1l9DmLIbolvc-0OmvMjBNwqY9TmtH14Lj8Npu21j-tJNL4huzUzRbKkOPNw87_-yEqMeXDgYB3u9WC9P9hwuYCYgQRNoGTOY6cv9Ki2G6i5s4tYF4VcSyzXGYc5ezp21gYTnr3_PWeKFHTfdDaPo_y7wGPmsb0hXcWydS-Qw3y3VdHJoBg9KvUqiLzuZgB-H8R2CKOLUem9EVyKwIxyUCYwLg0bgewZVBoEJqkNMbn8aZCKie-qSawYRodJ7IXTfzcTaa-wuf5HyC2g8tHM-Yo8ocWskrPxXVo1x8ksTxhiLHC0ThXS5J8fGyLFlH1cS2OHjFpsKZyZqHTsE3tLmBgkmvxstTeYxrPVTmRrlcr76FC8ouTCuhAenJN3glT9Q4CwN59IE1d_bPMqIJjX6EXLHN4Wy7iPj4zsOcKCiHE_GngfrtJejaBaV4aLNDET4RrctSGEdIaVmE32_OG0zHmqLvL7VIC8MQnqutSlXH4ge9A7Jbf-4RKObx2QPiR1-DdLDO6XEi3AqWAHFfv4KACZqswXkh8-DOs2qKLrpEIe_hLP2XzwEEcKXHwmWi6N7OsML9l-jQk2US03VDr64",
+            "proofPurpose": "assertionMethod",
+            "type": "JsonWebSignature2020",
+            "verificationMethod": "did:web:compliance.lab.gaia-x.eu"
+        },
+        "@context": ["https://www.w3.org/2018/credentials/v1"],
+        "issuer": "https://gaiax.de"
+    }
+}

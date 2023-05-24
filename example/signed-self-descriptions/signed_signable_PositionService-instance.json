@@ -1,0 +1,61 @@
+{
+    "@id": "http://example.edu/verifiablePresentation/self-description1",
+    "proof": {
+        "created": "2023-05-23T11:45:24Z",
+        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..dfpF2k3Yagz1HmldNUcvmL7DWB939mNnLiPdgZincGUWpl7IP3EyTb6bVyKUgqGTforrcYU126F-C47r-xS29stbWWBY0b1Ow4_ZWtFIUNM6-JkyU_TzZb0jFIM5oUTj2gfoT1OLPtkLYghd9c2cYZlJlmQRLdGTD4MqmLuKdiU_UHJtF9hNecX4rjF6VhoULDPzC48yFCfYIQTNu9eSklcVWvQaGvwXkhRhPetYq98vddpzKK_Ec8QKfuCXuOkzI6I9AW1Z4sJelnoJOqiB7oF6wu78ZeXqmCtXK8D6To3VIRzunK5LkLGFt2jng7LabpY7TloA1WNKSa7CcIiEQQkFdLWSy-Th5m11gsuiAmRiBcPemHuhbUSgjOI6ERLQCHZByrbtDDhiu62kb_2tYzhdN2JMmKfWR8xdiLbUamNQonbQwXFxcllaXQlD0SrLl2gtSJfLdKSKgcuOnz4gq6_HY7k3xZvAy0FtVuETVroS2IprXFdwVu14iDcGon1rjo1n9cSQu6LSXbNSsjB4j5qwJTSNkdF3POLCc8K6jnqpNTHdOhz8H5NV1EMUaz_9tAsyf3vq5ei_ZEfEwakf-1IJYx7Wd_cvlBB0S4_KZ_6zhj1j9fH5RGREw2Er4NiHMaYaLNklJbySPY8FO75He0fpHha7vWssdk-d9AW-VEE",
+        "proofPurpose": "assertionMethod",
+        "type": "JsonWebSignature2020",
+        "verificationMethod": "did:web:compliance.lab.gaia-x.eu"
+    },
+    "type": ["VerifiablePresentation"],
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    "verifiableCredential": {
+        "issuanceDate": "2023-05-23 13:41:16.376661",
+        "credentialSubject": {
+            "gax-core:supervised": "did:web:exmaple:ServiceProviderGmbH:vehicleSupervisor1",
+            "gx-community:uri": "did:example:path/to/service",
+            "@type": "gx-community:PositionService",
+            "gax-trust-framework:name": {
+                "@value": "SDVD",
+                "@type": "xsd:string"
+            },
+            "gax-core:offeredBy": "did:web:example:ServiceProviderGmbH",
+            "@id": "did:web:example:ServiceProviderGmbH:vehicleService1",
+            "@context": {
+                "cc": "http://creativecommons.org/ns#",
+                "schema": "http://schema.org/",
+                "cred": "https://www.w3.org/2018/credentials#",
+                "void": "http://rdfs.org/ns/void#",
+                "owl": "http://www.w3.org/2002/07/owl#",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "gax-validation": "http://w3id.org/gaia-x/validation#",
+                "skos": "http://www.w3.org/2004/02/skos/core#",
+                "voaf": "http://purl.org/vocommons/voaf#",
+                "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+                "vcard": "http://www.w3.org/2006/vcard/ns#",
+                "gax-core": "https://w3id.org/gaia-x/core#",
+                "dct": "http://purl.org/dc/terms/",
+                "sh": "http://www.w3.org/ns/shacl#",
+                "gax-trust-framework": "http://w3id.org/gaia-x/gax-trust-framework#",
+                "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+                "gx-community": "https://gxfs.eu/ns#",
+                "ids": "https://w3id.org/idsa/core/",
+                "dcat": "http://www.w3.org/ns/dcat#",
+                "vann": "http://purl.org/vocab/vann/",
+                "foaf": "http://xmlns.com/foaf/0.1/",
+                "did": "https://www.w3.org/TR/did-core/#"
+            }
+        },
+        "@type": ["VerifiableCredential"],
+        "@id": "https://www.example.org/SoftwareOffering.json",
+        "proof": {
+            "created": "2023-05-23T11:45:23Z",
+            "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..p2fsRzEkLyEvrekWwmOl5hfImpQRE9PgKtAvWbAlQki2BbMKj_FqsEZiQ1fOhiof2k8EOa8ZEkrUBg16XK0IjqrT2rA20kUW4gr1MmjB4JNpiWel5_ElNkc5GaV-Wuw2YPQ9QzT1H4UK94mqu-M7rlfTH6Az-90DFBkYnrUi9Ne3w0_Wy1lj4LKnXGqwCskR_7CPl6TR5e-13ZDX03KrgIfeiGrV82UPpmJQTBpBiFyzDIA_K3h271AMVc1QtvLGuGyQH7FH_Rge-qqG8Se_tOGFbZppwh3TXzybg5qIsHngU8Gg-3Uh-Wl_qePLNxGpnCvSnBV1GxSiL4Bxn2k-2WdiaNPtXI3c5YLZwX4EsK9AsIm6jpoHglnBqAKzt_y5qdPOlrwUK4obReYVmG5RLKmWXxifZaxYlNY9pKvX2sdPEbjPVXah-tAuACh3U15nViWMk0mF9FlQlzRqNNGQfNXrippK_m3ZoBNqyNIu0SHS6Vdhdd1CI6ZJuwDDDgShMYIPiUHurJrHK__a1aQaBDjahUha2oMc_gAVAWWlsfDz6e9BnSXsJmtA5gw-E3kad2Exy7t95F1HI8dW_Gj_kQjmHDh49tbXKTgoB0i0jQTmJ7t9WzgP7-QFSVkQ8Jia0Z9zm3LW6-AsS6PdyWsPFLUeUOoBmmRmFoVHga_mhoQ",
+            "proofPurpose": "assertionMethod",
+            "type": "JsonWebSignature2020",
+            "verificationMethod": "did:web:compliance.lab.gaia-x.eu"
+        },
+        "@context": ["https://www.w3.org/2018/credentials/v1"],
+        "issuer": "https://gaiax.de"
+    }
+}
