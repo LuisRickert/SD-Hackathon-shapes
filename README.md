@@ -36,17 +36,18 @@ Note:
 
 ### Self-Description Signer
 
-The singer is one java file. The script searches in the resource folder for a self-description named `sd.jsonld`. To use this signer you have to set the target location of the script within the main.java.
+The singer is one java file. The script searches in the resource folder for a self-description named `sd.jsonld`. To use this signer you have to set the target location of the script within the main.java .
 
-## Setup Federated Catalog
+## Steps
 
-1. add rdf to federated catalog
+1. Start the Self-Description Wizard navigate to upload shape and add each shape an fill the empty fields.
+2. run the `make_signable.py`script by passing the created Self-Descriptions
+3. Sign each Self-Description
+4. add the .rdf file to the FC together with the shapes
 
-2. add shapes
+## Result
 
-## Setup Self Descriptions
-
-- service owner did: did:web:example:ServiceProviderGmbH
-- service did: did:web:example:ServiceProviderGmbH:vehicleService1
-- dispatcher did: did:web:example:Dispatcher
-- supervisor did: did:web:exmaple:ServiceProviderGmbH:vehicleSupervisor1
+- In the example dir you find the generated Self Descriptions usinged aswell as unsigned.
+- as for now the federated catalogue does **not** accept these Self-Descriptions due to malformed credential subject.
+  - we assume this is depening on the super class LegalPerson
+  - we assume this, because the during the Berlin-Hackathon the used super class was "Service Offering". In this context the Self-Descriptions created and signed the same way were accepted.
