@@ -48,7 +48,31 @@ The singer is one java file. The script searches in the resource folder for a se
 ## Result
 
 - In the postman dir you find a postman collection to interact with the federated catalog
-- In the example dir you find the generated Self Descriptions usinged aswell as unsigned.
+- The example dir has the following structure:
+
+```bash
+example
+├── self-descriptions
+│   ├── Dispatcher-instance.json
+│   ├── PositionService-instance.json
+│   ├── ServiceOwner-instance.json
+│   └── Supervisor-instance.json
+├── signable-self-descriptions
+│   ├── signable_Dispatcher-instance.json
+│   ├── signable_PositionService-instance.json
+│   ├── signable_ServiceOwner-instance.json
+│   └── signable_Supervisor-instance.json
+└── signed-self-descriptions
+   ├── signed_signable_Dispatcher-instance.json
+   ├── signed_signable_PositionService-instance.json
+   ├── signed_signable_ServiceOwner-instance.json
+   └── signed_signable_Supervisor-instance.json
+```
+
+- self-descriptions contains the results from the self descriptions creation wizard
+- signabel-self-descriptions contains the result after running the `make_signable.py`script
+- signed-self-descriptions contains the signed self descriptions
+
 - as for now the federated catalogue does **not** accept these Self-Descriptions due to malformed credential subject.
   - we assume this is depening on the super class LegalPerson
   - we assume this, because the during the Berlin-Hackathon the used super class was "Service Offering". In this context the Self-Descriptions created and signed the same way were accepted.
