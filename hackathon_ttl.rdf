@@ -52,3 +52,13 @@ gx-community:ServiceOwner
 	rdfs:label		"ServiceOwner"@en ;
 	rdfs:subClassOf	 gax-core:LegalPerson ;
 . 
+
+################## 
+## Position Service
+##################
+
+gx-community:PositionService
+	a		 		owl:Class;
+	rdfs:label		"ServiceOwner"@en ;
+	rdfs:subClassOf	 gax-core:ServiceOffering ;
+. 

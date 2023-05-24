@@ -23,7 +23,7 @@
 @prefix cred: <https://www.w3.org/2018/credentials#> .
 @prefix gx-community: <https://gxfs.eu/ns#> .
 
-gax-validation:Supervisor
+gax-validation:SupervisorShape
 	a sh:NodeShape ;
 	sh:targetClass gx-community:Supervisor ;
 	sh:property [ sh:path gax-trust-framework:name ;

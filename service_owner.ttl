@@ -23,7 +23,7 @@
 @prefix cred: <https://www.w3.org/2018/credentials#> .
 @prefix gx-community: <https://gxfs.eu/ns#> .
 
-gax-validation:ServiceOwner
+gax-validation:ServiceOwnerShape
 	a sh:NodeShape ;
 	sh:targetClass gx-community:ServiceOwner ;
 	sh:property [ sh:path gax-trust-framework:name ;

@@ -23,7 +23,7 @@
 @prefix cred: <https://www.w3.org/2018/credentials#> .
 @prefix gx-community: <https://gxfs.eu/ns#> .
 
-gax-validation:PositionService
+gax-validation:PositionServiceShape
 	a sh:NodeShape ;
 	sh:targetClass gx-community:PositionService ;
 	sh:property [ sh:path gax-trust-framework:name ;
