@@ -3,7 +3,7 @@
   "type": ["VerifiablePresentation"],
   "@context": ["https://www.w3.org/2018/credentials/v1"],
   "verifiableCredential": {
-    "issuanceDate": "2023-05-23 13:41:16.382669",
+    "issuanceDate": "2023-05-25T09:40:58.431532+00:00",
     "credentialSubject": {
       "@context": {
         "cc": "http://creativecommons.org/ns#",
