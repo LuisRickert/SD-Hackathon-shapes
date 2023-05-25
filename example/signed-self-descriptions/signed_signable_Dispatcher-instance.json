@@ -1,8 +1,8 @@
 {
     "@id": "http://example.edu/verifiablePresentation/self-description1",
     "proof": {
-        "created": "2023-05-23T11:44:25Z",
-        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..RsDmuLtqBgrb9qDmtj40BidMGHmw8Q-DDrC1q40iBq_oyxENdcu5YsUF8DMSrkDfDgKgX6YhNgveCjLyrCrBqLbrDm1TKsz5jiI6UYXxcDraZ62qVpHWa47ELy_dtVo3MF2iTR2s-LPsBqt6OsAKUQiIK1XR6vpk6jn7jUbEyZg6vsTVkY_WuNNiISkvup_GyB8r8vIIOQZh2aHDXf695NEaseT6fk1QW7EuHzIeCh6OyrXSvvH-0ukJ7i5B1DrbdV0F1ZAwtDcoMuEkWKPXRp_nw2QOS4ovJlF76hLJC7PBtO-Xxt2C5tkvG4UEIV2qWDXJJ5bM5N4cVlvJXGUPBXKNO_XLc_NHPO9DfpLiMxeHhhUA1UZFlUC4unaG5jj8MxPWAQgLwTuYBNuCu8bn82EzrNeNq_Is6N6t6_MtOtDqK6yvbM7u8oUJkcSigR9MEw6cFS-0LWGjgq9MBbXdmdFoQETioBjqYp4uwHkOROLhchqKeQA_sbs5RhL3s2hWL-09MZ8HFCZDgEQhC8nJMzdnJsfQbgjeqxjrBAx1q7A_lSuQ02_UlJZQQBICep67HFMcz9qzxskGA_-FarrTGSdtrSvJkq1ncjq1Vbtl_maRcCKR3xcsOIzcmq90rGh0sgPbZcBEl_N1EJlZhq3RghB4_Kpn15tfn6-fjrGgisU",
+        "created": "2023-05-25T11:24:42Z",
+        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..PdVi6-UK5m0wcRJArIh6tk4d5joFm9_SxEDZZ5Zr3pPynB21n3RFpPym-0aPJimxQRPdUlWBYGovNA6N_OWok_a58_dUgvzdt_6LZfq0yhSwA1bvqWHxd1ZR1Fg32jz36bTWueMJTMLUPajePeygFubCF53aRZ8HUB2IN-L9EuSzAPR9KDnLWRRrfAqkN1iboG5oKrEj7WrvHdDtXSAzOmmVUXah-M_UVLX5upSi0Dj6ArIjW7gqoYC_VaOE7k238vo1PHF57Y_kWgrLIyjjlzXb1GZz8Get2S3rxbKYZA-xjyMx2u56WDSfdNU9OzyljgORD3pS-FGwQWd71MEu6N4JLddEin6kud-xDS7LC-YMSCU-JdBekTypccsYr2zj5TiHsldCVWUtaK5eeU0V_3GVFOvcOeGhn16Jjxy_B5QuYN3rjvvoyFi8o0cqvcltx4YZ_YX6QanzZ8nPdcr6vjgjzxQ7rDTDnnfMZMt2N7SINZyeQkQd_M3qlUX1yFVkzfd4AaHVvp08l0ih6CEzht-eaJakpe-kPNpePNPPl7qbbZ0abtNmux-BklW8pX1KqD69ZJ9hIs_EG_WHtOis8b05aZflrIGOcDR2LBH4-VuLTr0JfFugnp-CV-JvOwN1yCm5qVHal3tih2dcWANU3szr6EH69MDoiS65WcTA96Y",
         "proofPurpose": "assertionMethod",
         "type": "JsonWebSignature2020",
         "verificationMethod": "did:web:compliance.lab.gaia-x.eu"
@@ -10,7 +10,7 @@
     "type": ["VerifiablePresentation"],
     "@context": ["https://www.w3.org/2018/credentials/v1"],
     "verifiableCredential": {
-        "issuanceDate": "2023-05-23 13:41:16.382669",
+        "issuanceDate": "2023-05-25T09:40:58.431532+00:00",
         "credentialSubject": {
             "@type": "gx-community:Dispatcher",
             "gax-trust-framework:name": {
@@ -47,8 +47,8 @@
         "@type": ["VerifiableCredential"],
         "@id": "https://www.example.org/SoftwareOffering.json",
         "proof": {
-            "created": "2023-05-23T11:44:25Z",
-            "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..vsVif6QqYt37DrgGhKYU2VfbAPqMOytnqI8jQgcxT3NcS9RjCb9i7pxW2BnaZ-Vo9XSriKwPh4k-GnxLoEnRG3n7o2NBwE6d9tTD9KfY1vKXC5Ym_H86QTAZ5V4GiBDkblbEKWBI7hkrN0OPti0x1wujGsMDos59oF5BXU8vmBJnlpHxn9VIhfk7cDH6sUYEVCP1Rn4SrUSsR1_9nOQ1M26bA8CpARq9Z3ySQvsQc12ljz4fdUge79dgdzGTEig1rCQFO6nLi2OVy_FbqENNRuCcwF9kUBa3NfOsBj9PFLHHWiWq8K6rUZVLH5InNu9O4Ve4_W-kMxX4upZ-YmYR5Mj0pvr3NQf5lzwkSFNNa8koORbAK3lWto0Z74ax9vSPNThHEbMwrsAP2C84SVSjmXOlHQzJTf8WSXa6NCiu0g4OOAZA2icRbfzlC9OmDvCeW9AJw1nigY56VDa_cKtWxVu8iYcGzWAub4fkmg3h-Pku1tkILub3GNJWt1nQmY0bwSawezk45dzQZvboqZLpB_QuEhZQFl6zdve5MhX0_t-1e5eGtxZpDZUFpDcuQaQTJ3-B5L4IlgqCoP4QA4dVj_fz0LVZOLgfMFWjA83lJRFciXqFcRA8v-iKo_bHU5ftfu0N_L4k2MaQnoD0LVtCYwMwyoRV1EzA1iq-w7q9BM8",
+            "created": "2023-05-25T11:24:42Z",
+            "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..njnCIMKUoTe2sCIj7ssSX6IJx83NdJJnD3DXB0XR-gR8rhGfL04Cnl4MWuso_atXZRX-uUFVQWBAWuobT-9N5CH_E08c-ZVTOSQbVqdXZDwGJ_BxuXG02GUsPboG6y1-gwsmv0Sw85BwPi_uyfYchDoBpMyLKwE3UcfVpUtN-PRyxhDyIijcBim6h7j1owEALVe_LoY1czie6BmUWsV6d69KnznRAVrmr3QSC4fWBwajrj9pN0pTGkClEcTnduftHSusuH5PQId_KW3jzlSNNpXRleRmUAMWl_rUsnhpAV3_2CQ78PgVNSGn8Lc-0co5R9MZXIRaHYSS6HPdgavHHJGJufGxB5YEbD6M2DxXdpFCeaEaQDuedAdTzxMT4d8nz66hOxbgBJEGZQ2wOHufdzcVSOvsledbe_gp8Oehj68Ytj9Vzh39I-MqDw5jHZbs7d94fpOHDexL930hQVp75vGY-8oUYXIYZ-bQsz7o__3n-Sn0PbLIP1PGBbB7hjk6p3C7gWGA9BWIYx9FzAXdYBmF-U0zZ3GI6q1bTsCEpQEU6YBPHJkMPbF3-zPKNC5Ygo8usycTZX6KcQU7oQillpXdj1SNr9s7uEiBaVIYEqJJy7z4fxIK3KAAktAF_4OeBmW6K8m7a41HJmc2M35y5uFimrM6_dNGpjvQYyi4ZOw",
             "proofPurpose": "assertionMethod",
             "type": "JsonWebSignature2020",
             "verificationMethod": "did:web:compliance.lab.gaia-x.eu"
