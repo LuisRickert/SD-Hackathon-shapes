@@ -31,6 +31,7 @@ gx-community:Dispatcher
 	a		 		owl:Class;
 	rdfs:label		"Dispatcher"@en ;
 	rdfs:subClassOf	 gax-core:LegalPerson ;
+#	rdfs:subClassOf	 gax-core:ServiceOffering ; # using this works, then the federated catalog accepts the self description
 .
 
 ################## 
@@ -41,6 +42,7 @@ gx-community:Supervisor
 	a		 		owl:Class;
 	rdfs:label		"Supervisor"@en ;
 	rdfs:subClassOf	 gax-core:LegalPerson ;
+#	rdfs:subClassOf	 gax-core:ServiceOffering ; # using this works, then the federated catalog accepts the self description
 . 
 
 ################## 
@@ -51,6 +53,7 @@ gx-community:ServiceOwner
 	a		 		owl:Class;
 	rdfs:label		"ServiceOwner"@en ;
 	rdfs:subClassOf	 gax-core:LegalPerson ;
+#	rdfs:subClassOf	 gax-core:ServiceOffering ; # using this works, then the federated catalog accepts the self description
 . 
 
 ################## 
