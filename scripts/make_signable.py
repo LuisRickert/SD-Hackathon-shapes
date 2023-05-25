@@ -1,6 +1,7 @@
 import sys
 import json
 import pathlib
+import pytz
 from datetime import datetime as dt
 
 def create_signable_sd(subject: json) -> json:
@@ -9,7 +10,7 @@ def create_signable_sd(subject: json) -> json:
         "type": ["VerifiablePresentation"],
         "@context": ["https://www.w3.org/2018/credentials/v1"],
         "verifiableCredential": {
-            "issuanceDate": str(dt.now()),
+            "issuanceDate": str(dt.now().astimezone(pytz.utc).isoformat(sep="T")),
             "credentialSubject": subject,
             "@type": ["VerifiableCredential"],
             "@id": "https://www.example.org/SoftwareOffering.json",
@@ -33,7 +34,7 @@ if __name__ == "__main__":
           sd = json.load(read_file)
 
        
-       signable_sd = create_signable_sd(sd)       
+       #signable_sd = create_signable_sd(sd)       
        new_name=pathlib.Path("./signable_" + file.name)
        new_name.touch(exist_ok=True)
        with open(new_name,"w") as file:
