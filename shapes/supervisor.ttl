@@ -39,7 +39,7 @@ gax-validation:SupervisorShape
 				  skos:example "A did:web:example:service" ;
 				  sh:order 2 ;
 				  sh:minCount 1 ;
-				  sh:nodeKind xsd:uri ] ;
+				  sh:datetype xsd:uri ; ] ;
 	sh:property [ sh:path gx-community:can_read_data ;
 				  sh:name "can_read_data" ;
 				  sh:description "Flag if the id can read data"@en ;

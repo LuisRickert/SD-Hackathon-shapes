@@ -49,7 +49,7 @@ gax-validation:PositionServiceShape
 				  sh:order 3 ;
 				  sh:minCount 1 ;
 				  sh:maxCount 1 ;
-				  sh:nodeKind sh:uri ] ;
+				  sh:datetype xsd:uri ; ] ;
     sh:property [ sh:path gax-core:supervised ;
 				  sh:name "supervised by" ;
 				  sh:description "DID of did of the supervisor"@en ;
@@ -57,6 +57,6 @@ gax-validation:PositionServiceShape
 				  sh:order 4 ;
 				  sh:minCount 1 ;
 				  sh:maxCount 1 ;
-				  sh:nodeKind sh:uri ] ;
+				  sh:datetype xsd:uri ; ] ;
 .
 	
